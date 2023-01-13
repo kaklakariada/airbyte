@@ -12,8 +12,8 @@ on:
         description: "Enable or disable tmate session for debug during helm ac tests"
         default: 'false'
         required: false
-  schedule:
-    - cron: "0 */1 * * *"
+  #schedule:
+  #  - cron: "0 */1 * * *"
   push:
     branches-ignore:
       - "gitbook/v1"

@@ -5,8 +5,8 @@ name: Check for broken links in docs
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 18 * * *'
+  #schedule:
+  #  - cron:  '0 18 * * *'
 
 jobs:
   markdown-link-check:

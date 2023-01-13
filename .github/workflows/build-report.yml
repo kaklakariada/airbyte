@@ -5,9 +5,9 @@ name: Generate Build Report
 
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
     # 1pm UTC is 6am PDT.
-    - cron: "0 13 * * *"
+    #- cron: "0 13 * * *"
 
 jobs:
   build-report:
